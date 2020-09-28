@@ -1,0 +1,113 @@
+body {
+  background-color: #E5E5E5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #ffc400;
+  margin: 0;
+ }
+ body::after {
+  content: "";
+  background: url("../assets/background.jpg");
+  background-size: cover;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+} 
+h1{
+  font-weight: 900;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.about_me{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 280px;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 12px;
+  background-color: #202020;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 10px 10px 10px 0px rgba(148,148,148,1);
+  -moz-box-shadow: 10px 10px 10px 0px rgba(148,148,148,1);
+  box-shadow: 10px 10px 10px 0px rgba(148,148,148,1);
+  
+}
+
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 450px;
+  padding: 30px;
+}
+.card_img{
+  width: 100%;
+  border-radius: 12px;
+}
+.card_text{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  justify-content: flex-start;
+  height: 70%;
+}
+.card_footer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  height: 10%;
+  
+}
+i.fa{
+  font-size: 50px;
+}
+a:link {
+  color: gray;
+}
+a:visited {
+  color: gray;
+}
+a:hover{
+  color: #ffc400;
+}
+@media (min-width: 350px) {
+  .about_me{
+    max-width: 350px;
+  }
+}
+@media (min-width: 724px) {
+  .about_me{
+    max-width: 700px;
+  }
+  body{
+    font-size: 40px;
+  }
+}
+@media (min-width: 980px) {
+  .about_me{
+    max-width: 980px;
+  }
+  
+}
+@media (min-width: 1200px) {
+  .about_me{
+    max-width: 1600px;
+  }
+  .card_text{
+    justify-content: center;
+    height: 90%;
+  }
+
+}
