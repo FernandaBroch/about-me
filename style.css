@@ -41,6 +41,16 @@ h1{
   box-shadow: 10px 10px 10px 0px rgba(148,148,148,1);
   
 }
+.social_media{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+  width: 70px;
+  padding: 30px;
+}
 
 .card{
   display: flex;
@@ -60,15 +70,29 @@ h1{
   align-content: center;
   text-align: center;
   justify-content: flex-start;
-  height: 70%;
+  height: 90%;
+  
+}
+h5{
+  font-weight: 300;
 }
 .card_footer{
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  text-align: center;
-  height: 10%;
-  
+  justify-content: space-around;
+  align-items: center;
+  vertical-align: middle;
+  border-top: #ffc400 1px solid;
+  padding-top: 10px;
+}
+.fa-html5{
+  color: #E44D26;
+}
+.fa-css3-alt{
+  color: #264DE4;
+}
+.fa-js-square{
+  color:#F7DF1B;
 }
 i.fa{
   font-size: 50px;
